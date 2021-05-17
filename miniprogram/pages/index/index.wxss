@@ -7,12 +7,38 @@ page {
   justify-content: flex-start;
 }
 
-.userinfo, .uploader, .tunnel {
+.userinfo, .uploader, .tunnel, .sure {
   margin-top: 40rpx;
   height: 140rpx;
   width: 100%;
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+}
+
+ .sure {
+  margin-top: 0rpx;
+  height: 60rpx;
+  width: 100%;
+  background: hsl(241, 38%, 63%);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+}
+
+.content {
+  margin-top: 100rpx;
+  height: 100rpx;
+  width: 100%;
+  background: rgb(176, 199, 214);
   border-left: none;
   border-right: none;
   display: flex;

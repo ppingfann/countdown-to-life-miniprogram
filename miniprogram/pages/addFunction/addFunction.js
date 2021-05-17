@@ -40,11 +40,14 @@ Page({
       },
       success: res => {
         wx.showToast({
-          title: '调用成功',
+          title: '???',
         })
         this.setData({
           result: JSON.stringify(res.result)
         })
+        console.log("sum云函数返回的对象",res)
+        console.log("res.result是啥", res.result)
+console.log("JSON.stringify(res.result)是啥", JSON.stringify(res.result))
       },
       fail: err => {
         wx.showToast({

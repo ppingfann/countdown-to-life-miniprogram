@@ -3,6 +3,7 @@ const app = getApp()
 
 Page({
   data: {
+    date: '1995-11-27',
     avatarUrl: './user-unlogin.png',
     userInfo: {},
     hasUserInfo: false,
@@ -11,6 +12,20 @@ Page({
     requestResult: '',
     canIUseGetUserProfile: false,
     canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') // 如需尝试获取用户信息可改为false
+  },
+
+  setBirthday: function(e) {
+    this.setData({
+      text: "亲爱的，困死我了，不想做了，回家睡觉，明天再说"
+      // text: "若按照中国人的平均寿命计算，在这个美丽的世界上，你还可以吃顿饭"
+    })
+  },
+
+  bindDateChange: function (e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      date: e.detail.value
+    })
   },
 
   onLoad: function() {
