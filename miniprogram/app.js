@@ -14,6 +14,8 @@ App({
       })
     }
 
-    this.globalData = {}
+    this.globalData = {
+      date: "1995-11-27"
+    }
   }
 })

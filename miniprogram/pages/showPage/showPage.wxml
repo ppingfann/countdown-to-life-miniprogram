@@ -1,0 +1,49 @@
+<!--pages/showPage/showPage.wxml-->
+
+<view class="live_content">
+    <navigator url="../live/live" open-type="navigate" class="uploader-text">
+        <button hover-class="none" hover-stop-propagation="true">
+            <text class="text">{{live_text}}</text>
+        </button>
+    </navigator>
+</view>
+
+<view class="eat_content">
+    <navigator url="../eat/eat" open-type="navigate" class="uploader-text">
+        <button hover-class="none" hover-stop-propagation="true">
+            <text class="text">{{eat_text}}</text>
+        </button>
+    </navigator>
+</view>
+
+<view class="wangzhe_content">
+    <navigator url="../wangzhe/wangzhe" open-type="navigate" class="uploader-text">
+        <button hover-class="none" hover-stop-propagation="true">
+            <text class="text">{{wangzhe_text}}</text>
+        </button>
+    </navigator>
+</view>
+
+<view class="weekend_content">
+    <navigator url="../weekend/weekend" open-type="navigate" class="uploader-text">
+        <button hover-class="none" hover-stop-propagation="true">
+            <text class="text">{{weekend_text}}</text>
+        </button>
+    </navigator>
+</view>
+
+<view class="makelove_content">
+    <navigator url="../makelove/makelove" open-type="navigate" class="uploader-text">
+        <button hover-class="none" hover-stop-propagation="true">
+            <text class="text">{{makelove_text}}</text>
+        </button>
+    </navigator>
+</view>
+
+<view class="holiyday_content">
+    <navigator url="../holiyday/holiyday" open-type="navigate" class="uploader-text">
+        <button hover-class="none" hover-stop-propagation="true">
+            <text class="text">{{holiyday_text}}</text>
+        </button>
+    </navigator>
+</view>

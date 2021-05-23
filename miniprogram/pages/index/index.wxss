@@ -23,9 +23,9 @@ page {
 
  .sure {
   margin-top: 0rpx;
-  height: 60rpx;
+  height: 80rpx;
   width: 100%;
-  background: hsl(241, 38%, 63%);
+  background: hsl(209, 38%, 63%);
   border-left: none;
   border-right: none;
   display: flex;

@@ -1,0 +1,5 @@
+<!--pages/holiyday/holiyday.wxml-->
+<view class="imagesize">
+  <image class="image1" src="../../images/holiyday.jpg" mode="aspectFit">
+</image></view>
+

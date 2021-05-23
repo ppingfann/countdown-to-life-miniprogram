@@ -1,0 +1,5 @@
+<!--pages/makelove/makelove.wxml-->
+<view class="imagesize">
+  <image class="image1" src="../../images/makelove.jpg" mode="aspectFit">
+</image></view>
+

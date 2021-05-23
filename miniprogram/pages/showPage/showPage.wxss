@@ -1,0 +1,98 @@
+/* pages/showPage/showPage.wxss */
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.text{
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "楷体"
+}
+
+.live_content {
+  margin-top: 0rpx;
+  height: 300rpx;
+  width: 100%;
+  background: rgb(214, 176, 176);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+  justify-content: center;
+}
+
+.eat_content {
+  margin-top: 0rpx;
+  height: 300rpx;
+  width: 100%;
+  background: rgb(214, 199, 176);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+  justify-content: center;
+}
+
+.wangzhe_content {
+  margin-top: 0rpx;
+  height: 300rpx;
+  width: 100%;
+  background: rgb(213, 214, 176);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+  justify-content: center;
+}
+
+.weekend_content {
+  margin-top: 0rpx;
+  height: 300rpx;
+  width: 100%;
+  background: rgb(176, 214, 176);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+  justify-content: center;
+}
+
+.makelove_content {
+  margin-top: 0rpx;
+  height: 300rpx;
+  width: 100%;
+  background: rgb(135, 217, 219);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+  justify-content: center;
+}
+
+.holiyday_content {
+  margin-top: 0rpx;
+  height: 300rpx;
+  width: 100%;
+  background: rgb(194, 166, 211);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+  justify-content: center;
+}

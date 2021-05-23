@@ -1,0 +1,5 @@
+<!--pages/weekend/weekend.wxml-->
+<view class="imagesize">
+  <image class="image1" src="../../images/weekend.jpg" mode="aspectFit">
+</image></view>
+

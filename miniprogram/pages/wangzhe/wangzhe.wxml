@@ -1,0 +1,5 @@
+<!--pages/wangzhe/wangzhe.wxml-->
+<view class="imagesize">
+  <image class="image1" src="../../images/wangzhe.jpg" mode="aspectFit">
+</image></view>
+
