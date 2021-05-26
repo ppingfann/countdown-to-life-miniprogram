@@ -32,14 +32,6 @@
     </navigator>
 </view>
 
-<view class="makelove_content">
-    <navigator url="../makelove/makelove" open-type="navigate" class="uploader-text">
-        <button hover-class="none" hover-stop-propagation="true">
-            <text class="text">{{makelove_text}}</text>
-        </button>
-    </navigator>
-</view>
-
 <view class="holiyday_content">
     <navigator url="../holiyday/holiyday" open-type="navigate" class="uploader-text">
         <button hover-class="none" hover-stop-propagation="true">

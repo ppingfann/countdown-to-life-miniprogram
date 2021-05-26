@@ -55,7 +55,7 @@ Page({
     var wangzhe_text = "打 " + remainingWangZhe + " 局王者"
     var weekend_text = "过 " + remainingWeekend + " 次周末"
     var makelove_text = "做 " + remainingMakeLove + " 次爱"
-    var holiyday_text = "享" + remainingHoliyday + " 次长假"
+    var holiyday_text = "享 " + remainingHoliyday + " 次长假"
 
     this.setData({
       live_text: live_text,
